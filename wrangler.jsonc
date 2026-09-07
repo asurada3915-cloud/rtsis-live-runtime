@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "rtsis-p10-live-runtime-resilience-pilot-v0-1-0",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-09-07",
+  "kv_namespaces": [
+    {
+      "binding": "P10_LIVE",
+      "id": "REPLACE_WITH_PILOT_KV_NAMESPACE_ID"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "* 1-4 * * *",
+      "0-35 5 * * *"
+    ]
+  },
+  "observability": {
+    "enabled": true
+  }
+}

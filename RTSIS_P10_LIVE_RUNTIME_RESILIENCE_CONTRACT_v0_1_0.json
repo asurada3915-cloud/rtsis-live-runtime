@@ -1,0 +1,52 @@
+{
+  "schema": "RTSIS_P10_LIVE_RUNTIME_RESILIENCE_CONTRACT_V0_1_0",
+  "build_id": "P10_LIVE_RUNTIME_RESILIENCE_PILOT_V0_1_0",
+  "authorization": "USER_APPROVED_IF_BENEFIT_CONFIRMED_AND_NO_ARCHITECTURAL_DRIFT",
+  "purpose": "Prove a no-Colab, serverless 1-minute TWSE MIS observation runtime before migrating the existing P10 event engine.",
+  "base": {
+    "analysis_asof": "2026-09-04",
+    "generation_id": "2026-09-04_da74c1422be6",
+    "front_cards": 112,
+    "channel_map_source": "P10 v0.1.1 FREE 112/112 resolved channel evidence"
+  },
+  "runtime": {
+    "platform": "Cloudflare Workers Free pilot",
+    "cron": ["* 1-4 * * *", "0-35 5 * * *"],
+    "timezone_interpretation": "Cron is UTC; handler maps to Asia/Taipei 09:00-13:35",
+    "normal_poll_window": "09:00 <= TPE < 13:30",
+    "finalize_window": "13:30 <= TPE <= 13:35:59",
+    "poll_interval": "1 minute",
+    "source": "TWSE Market Information System",
+    "transport": "/stock/api/getStockInfo.jsp",
+    "classification": "RESEARCH_ONLY_PUBLIC_MIS_TRANSPORT",
+    "max_channels_per_request": 80,
+    "poll_subrequests": 2,
+    "same_day_quote_required": true,
+    "transport_coverage_gate": 0.9
+  },
+  "storage": {
+    "platform": "Workers KV",
+    "keys": ["snapshot", "health"],
+    "normal_session_writes_per_minute": 2,
+    "estimated_normal_session_writes_per_day": 540,
+    "note": "Pilot estimate; current Free KV write limit verified separately against Cloudflare docs."
+  },
+  "scope": {
+    "event_engine_migration": false,
+    "ranking_recompute": false,
+    "model_fit": false,
+    "threshold_retune": false,
+    "strategy_replacement": false,
+    "broker_connection": false,
+    "auto_order": false
+  },
+  "hard_boundaries": {
+    "production_write": false,
+    "latest_pointer_move": false,
+    "frozen_write": false,
+    "historical_access": false,
+    "finmind_tokens_used": false,
+    "pageshare_update": false
+  },
+  "promotion_rule": "Only after real runtime evidence passes reliability, same-day semantics, coverage, stale/failure behavior, and resource-limit checks may v0.2 migrate the exact P10 v0.1.1 event engine."
+}

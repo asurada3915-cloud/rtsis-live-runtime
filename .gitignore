@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.env.*
+.rtsis_p10_read_token.local
+.DS_Store

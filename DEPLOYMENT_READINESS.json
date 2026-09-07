@@ -1,0 +1,20 @@
+{
+  "schema": "RTSIS_P10_LIVE_RUNTIME_RESILIENCE_DEPLOYMENT_READINESS_V0_1_0",
+  "status": "READY_FOR_USER_AUTHENTICATED_CLOUDFLARE_DEPLOYMENT",
+  "build_id": "P10_LIVE_RUNTIME_RESILIENCE_PILOT_V0_1_0",
+  "worker_semantics_changed": false,
+  "deployment_helper_added": "DEPLOY_ONCE.sh",
+  "requires_user_cloudflare_authentication": true,
+  "protected_surfaces": {
+    "PageShare": "NO_CHANGE",
+    "Production": "NO_CHANGE",
+    "LATEST_CERTIFIED": "NO_CHANGE",
+    "Frozen": "NO_CHANGE",
+    "Historical": "NO_CHANGE"
+  },
+  "official_cli_recheck": {
+    "wrangler_kv_namespace_create": "CURRENT_SUPPORTED",
+    "wrangler_secret_put": "CURRENT_SUPPORTED",
+    "cron_executes_utc": true
+  }
+}

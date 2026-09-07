@@ -1,0 +1,54 @@
+{
+  "schema": "RTSIS_SHA256_MANIFEST",
+  "build_id": "P10_LIVE_RUNTIME_RESILIENCE_PILOT_V0_1_0",
+  "files": {
+    "ANTI_DRIFT_CHECKLIST.md": {
+      "sha256": "542c215763ae08a474f610970f6f3b4977b5c5f6019dc73a348e7e4279074257",
+      "bytes": 763
+    },
+    "DEPLOYMENT_READINESS.json": {
+      "sha256": "4b461fb2297c5eb1e6c36f3176e80d9a353563bcff24ba4fd3ef38aabe22eb87",
+      "bytes": 692
+    },
+    "DEPLOY_ONCE.sh": {
+      "sha256": "89e8c08779fce488c8e1724021ae0cb6e8b844e2a712e35e38110c634bdce49a",
+      "bytes": 3714
+    },
+    "README.md": {
+      "sha256": "1e253552df1c5acfd2fadbf51d818739b0eeb932d3ff5a771b17f0574945c9f2",
+      "bytes": 2724
+    },
+    "RTSIS_P10_LIVE_RUNTIME_RESILIENCE_CONTRACT_v0_1_0.json": {
+      "sha256": "9e9b4550c2f265b24862af6097ea57c9263005c7888458d682adb58cfcbc21ce",
+      "bytes": 2110
+    },
+    "SETUP_ONCE.md": {
+      "sha256": "69eb2cf77d4a31beeb3ca2a01d6b9c7cf989e50f47a378a264394dc2c57a8963",
+      "bytes": 620
+    },
+    "package.json": {
+      "sha256": "c2dc6b0f903fe71a24677a4954a0846b8c108e4f468e65361ed9e4f8f64130ce",
+      "bytes": 290
+    },
+    "src/channels.json": {
+      "sha256": "299239b3590e1cdd895348dbf1df14c90e0c3680c6f88ca2a7d5fec8515382bf",
+      "bytes": 2802
+    },
+    "src/core.mjs": {
+      "sha256": "2acf49c698ea5b10b9ba8101f6b2f5d4c67abacf3ec696ebe70c5d6a3d497938",
+      "bytes": 4584
+    },
+    "src/index.mjs": {
+      "sha256": "a1ce88c517c574b02797700cbb549f65b9ddc77ace374270b0fc1d52d86be4a9",
+      "bytes": 5504
+    },
+    "test/core.test.mjs": {
+      "sha256": "63fed11349e65bb418d53660e8dec91c3a3b38163db04786f2b665566ed7650e",
+      "bytes": 2081
+    },
+    "wrangler.jsonc": {
+      "sha256": "93476fa30562327422b71960abc8d68d37dfd3f325af78826b1ce609371e8d1b",
+      "bytes": 431
+    }
+  }
+}

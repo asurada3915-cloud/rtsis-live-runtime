@@ -1,0 +1,12 @@
+{
+  "name": "rtsis-p10-live-runtime-resilience-pilot-v0-1-0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/core.mjs && node --check src/index.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.34.0"
+  }
+}
