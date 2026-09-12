@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {"source_id":"lin_ruihong","source_name":"lin_ruihong","source_type":"telegram","source_url":"https://t.me/s/johnstock888","item_urls":["https://t.me/s/johnstock888"],"active":true},
+    {"source_id":"guo_zherong","source_name":"guo_zherong","source_type":"telegram","source_url":"https://t.me/s/a178178","item_urls":["https://t.me/s/a178178"],"active":true},
+    {"source_id":"lin_yukai","source_name":"lin_yukai","source_type":"telegram","source_url":"https://tg.me/win88888/6224","item_urls":["https://tg.me/win88888/6224"],"active":true},
+    {"source_id":"chen_kunren","source_name":"chen_kunren","source_type":"telegram","source_url":"https://t.me/s/daren888","item_urls":["https://t.me/s/daren888"],"active":true},
+    {"source_id":"lin_zhongxiang","source_name":"lin_zhongxiang","source_type":"youtube","source_url":"https://www.youtube.com/watch?v=FN3rtlfmTVs","item_urls":["https://www.youtube.com/watch?v=FN3rtlfmTVs"],"active":true},
+    {"source_id":"lin_hanwei","source_name":"lin_hanwei","source_type":"youtube","source_url":"https://www.youtube.com/watch?v=qFnfzeAoAeE","item_urls":["https://www.youtube.com/watch?v=qFnfzeAoAeE"],"active":true},
+    {"source_id":"wang_rongxu","source_name":"wang_rongxu","source_type":"youtube","source_url":"https://www.youtube.com/watch?v=T-GQCJ3ehfM","item_urls":["https://www.youtube.com/watch?v=T-GQCJ3ehfM"],"active":true},
+    {"source_id":"liu_yulun","source_name":"liu_yulun","source_type":"youtube","source_url":"https://www.youtube.com/watch?v=deF2Dfv4_Cw","item_urls":["https://www.youtube.com/watch?v=deF2Dfv4_Cw"],"active":true},
+    {"source_id":"zheng_ruizong","source_name":"zheng_ruizong","source_type":"youtube","source_url":"https://www.youtube.com/watch?v=K6kwxNMa6i0","item_urls":["https://www.youtube.com/watch?v=K6kwxNMa6i0"],"active":true},
+    {"source_id":"wu_yuezhan","source_name":"吳岳展／展哥","source_type":"instagram","source_url":"https://www.instagram.com/asia.wuig/","item_urls":["https://www.instagram.com/asia.wuig/"],"active":true},
+    {"source_id":"lynexaai","source_name":"Lynexa AI","source_type":"instagram","source_url":"https://www.instagram.com/lynexaai/","item_urls":["https://www.instagram.com/lynexaai/"],"active":true}
+  ]
+}
